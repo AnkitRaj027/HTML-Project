@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetStarted</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0%;
+            height: 100vh;
+        }
+        .login{
+            height: 850px;
+            width: 700px;
+            background-color:#1a1a1a;
+            border-radius: 20px;
+            box-shadow: 10px 10px 20px rgb(16, 12, 12);
+        }
+        .heading{
+            text-align: center;
+            color: rgb(7, 11, 14);
+            font-size: 40px;
+            
+            
+        }
+        .numdiv{
+            padding-left: 50px;
+            padding-bottom: 25px;
+            padding-top: 25px;
+            font-size: 25px;
+        }
+        .passdiv{
+            padding-left: 50px;
+            font-size: 25px;
+        }
+        input {
+            width: 600px; 
+            height: 40px; 
+            font-size: 22px;
+            padding: 10px;
+        }
+        label{
+            font-size: 30px;
+            color: rgb(137, 135, 135);
+        }
+        .loginbtn{
+            color: aliceblue;
+            width: 625px; 
+            height: 40px; 
+            font-size: 22px;
+            padding: 10px;
+            margin: 50px;
+            background-color: rgb(25, 106, 213);
+            
+        }
+        
+        .term{
+            text-align: center;
+            font-size: 18px;
+            color: white;
+        }
+        .play{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.download{
+    height: 50px;
+    width: 150px;
+    color: aliceblue;
+    background-color: #030303;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid white;
+   
+}
+.download-link{
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px 15px ;
+    margin: 5px;
+    display: inline-flex;
+    
+}
+.download-link img{
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+            
+            
+        
+
+    </style>
+</head>
+<body>
+    <div class="login">
+        <p class="heading"><a  style="text-decoration: none; color: rgb(59, 165, 245); ;">YouPay</a>
+            <br><small style="color: white;">Welcome to your Account</small>
+        </p>
+        <form action="">
+            <div class="numdiv">
+                <label for="">Phone Number <br><br>
+                    
+                    <input type="text" placeholder="Enter your registered number">
+                </label>
+            </div>
+            <div class="passdiv">
+                <label for="">Password <br><br>
+                    <input type="password" placeholder="Enter your password">
+                </label>
+            </div>
+            <div>
+                <button class="loginbtn"><a href="http://127.0.0.1:5500/page/index1.html " style="text-decoration: none;">LOGIN</a></button>
+            </div>
+            
+        </form>
+        <p class="term">
+            By Signing in ,you agree to our <a href="https://paytm.com/company/terms-and-conditions?company=one97&tab=privacy" target="_blank" rel="noopener noreferrer">privacy policy</a> and <a href="https://paytm.com/company/terms-and-conditions?company=one97&tab=terms" target="_blank" rel="noopener noreferrer">terms of use</a>.
+            <br>To create an account Download YouPay
+        </p>
+        <div class="play">
+            <button class="download"><a href="https://play.google.com/store/search?q=google%20pay&c=apps&hl=en" class="download-link" ><small><img src="googleplaylogo.webp" height="auto" width="25px">Get it on </small><br>Google PLay
+        </a></button>
+        <button class="download"><a href="https://www.apple.com/in/search/google-pay?src=globalnav" class="download-link"><small> <img src="applelogo.png" height=25px width="25px alt="">Get it on</small> <br>App Store
+        </a></button>
+        </div>
+
+    </div>
+</body>
+</html>

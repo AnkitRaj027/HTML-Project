@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+    
+    height: 80px;
+    width: 99%;
+    background-color: rgb(38, 52, 81);
+    padding: 5px;
+    margin-left: 8x;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+   
+}
+.start{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    
+    
+    
+    font-size: 50px;
+}
+
+.start-button{
+    height: 50px;
+    width: 220px;
+    color: aliceblue;
+    background-color: #0e6edb;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 3px solid white;
+    margin: 10px;
+}
+.travel{
+    background-color: rgb(255, 254, 254);
+    height: 1150px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+    background-image: url(sotck.jpg);
+}
+.navbar {
+        background-color: #1a1a1a;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        align-items: center;
+        box-shadow: 5px 10px 8px rgb(82, 82, 83);
+    }
+    
+    .navbar .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .navbar nav a {
+        color: white;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }   
+    .select{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    .board{
+        height: 1020px;
+        border-radius: 10px;
+        width: 40%;
+        background-color: #7d8087;
+        padding-top: 10px;
+        margin-left: 150px;
+        margin-top: 50px;
+        box-shadow: 5px 15px 15px rgb(47, 47, 48);
+        
+    } 
+    .choice{
+        display: flex;
+        margin: 20px;
+        font-size: 25px;
+    } 
+    
+    .from{
+        
+        height: 150px;
+        background-color: white;
+        width: 700px;
+        margin: 30px;
+        font-size: 30px;
+        padding: 20px;
+        box-shadow: 10px 10px 20px rgb(102, 101, 101);
+        border-radius: 5px;
+        
+    }
+    #choice{
+        width: 400px;
+        height: 30px;
+    }
+    .search{
+        margin-left: 250px;
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 5px;
+        background-color: rgb(58, 111, 255);
+        color: white;
+        border: 3px solid white;
+    }
+    .recharge{
+        display: flex;
+        padding: 50px;
+        margin: 5px;
+    }
+    .div1{
+        height: 100px;
+        width: 50px;
+        font-size: large;
+        margin-left: 180px;
+        font-size: 25px;
+    }
+    .instructions{
+        font-size: 40px; 
+        margin-left: 80px;
+         font-weight: 700;
+    }
+    .link{
+        text-decoration: none;
+    }
+    .link:hover{
+        box-shadow:1px 1px 1px rgb(101, 96, 96);
+        color: rgb(236, 55, 73);
+        
+    }
+    .links:hover{
+        background-color: #505051;
+        color: rgb(244, 241, 241);
+        border-radius: 5px;
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="nav">
+            <div class="logo">
+                <img src="logo.png" alt="Click Me" height="70px" width="70px" style="border-radius: 50%; margin: 3px;">
+                <img src="logo1.png" alt="Click Me" height="70px" width="170px">
+                <a href="http://127.0.0.1:5500/logincard/getstarted.html" class="start"><button class="start-button">Hi,XXXXXXXX15</button></a>
+                
+                
+            </div>
+        </div>
+            <div class="travel">
+                <header class="navbar">
+                    
+                    <nav class="select">
+                        <a href="#" class="links">Flights</a>
+                        <a href="#" class="links">Bus</a>
+                        <a href="#" class="links">Trains</a>
+                        <a href="#" class="links">Int'l Flights</a>
+                        <a href="#" class="links">Sign In</a>
+                    </nav>
+                    <div class="logo">YouPay Travel</div>
+                </header> 
+                <div class="board">
+                    <div class="choice">
+                        <label><div> <input type="radio" name="Mygender" id="">Round-trip</div></label>
+                        <label><div> <input type="radio" name="Mygender" id="">One-way</div></label>  
+                    </div>
+                    <div class="depart">
+                        <div class="from">
+                            
+                               <small> From</small> <br> <br>
+                                <b>FROM</b>
+                                <br>
+                                <select name="transport" id="choice">
+                                    <option value="bus">Delhi</option>
+                                    <option value="bus1">Mumbai</option>
+                                    <option value="bus2" >Chennai</option>
+                                </select>
+                            
+                        </div>
+                        <div class="from">
+                            
+                            <small> TO</small> <br> <br>
+                             <b>TO</b>
+                             <br>
+                             <select name="transport" id="choice">
+                                 <option value="bus">Delhi</option>
+                                 <option value="bus1">Mumbai</option>
+                                 <option value="bus2" >Chennai</option>
+                             </select>
+                         
+                     </div>
+                     <div class="from">
+                            
+                        <small> Departure Date<small> <br> <br>
+                         <b>14 NOV 2024</b>
+                         <br>
+
+                     
+                 </div>
+                 <div class="from">X    
+                            
+                    <small>Travelller and Cabin Class</small> <br> 
+                     <b>1 Traveller</b>
+                     <br><small>Economy</small>
+                     
+             </div>
+             <button class="search">Search Flights</button>
+
+            </div> 
+
+                </div>
+
+            </div>
+        <p style="font-size: 40px; margin-left: 70px; font-weight: 700; ">Recharge and pay bills on YouPay</p>
+        
+            <img src="image.png" alt="" style="margin-left: 50px;">
+        <div class="recharge">
+            <div class="div1">
+               <a href="http://127.0.0.1:5500/nextpage/nxt.html" class="link"> Recharge
+                <br> and <br>
+                pay bills</a>
+            </div>
+            <div class="div1">
+                <a href="http://127.0.0.1:5500/nextpage%20copy/nxt.html" class="link">Pay
+                <br> Electricity <br>
+                bills </a>
+            </div>
+            <div class="div1">
+                <a href="http://127.0.0.1:5500/nextpage%20copy%202/nxt.html" class="link">Recharge
+                <br> D2h <br>
+                Connections</a>
+            </div>
+            <div class="div1">
+                <a href="http://127.0.0.1:5500/nextpage%20copy%205/nxt.html" class="link">Book
+                <br> gas <br>
+                Cylinder</a>
+            </div>
+            <div class="div1">
+                <a href="http://127.0.0.1:5500/nextpage%20copy%204/nxt.html" class="link">Pay
+                <br> Broadband & <br>
+                landline bills</a>
+            </div>
+            <div class="div1">
+                <a href="http://127.0.0.1:5500/nextpage%20copy%203/nxt.html" class="link">Pay
+                <br> Education <br>
+                fees</a>
+            </div>
+            <div class="div1">
+                <a href="#" class="link">All
+                <br>Payment <br>
+                Services</a>
+            </div>
+            </div>
+        <p class="instructions">YouPay Payment Instructions<p>
+            <img src="Screenshot 2024-11-11 002825.png" alt="">
+            <p class="instructions">Book on YouPay<p></p>
+            <img src="books.png" alt="" style="margin-left: 50px;">
+            <div class="recharge">
+                <div class="div1">
+                   <a href="#" class="link"> Movie
+                    <br>Tickets</a>
+                </div>
+                <div class="div1">
+                    <a href="#" class="link">Flights
+                    <br> Tickets <br></a>
+                    
+                </div>
+                <div class="div1">
+                    <a href="#" class="link">Bus
+                    <br> Tickets</a>
+                   
+                </div>
+                <div class="div1">
+                    <a href="#" class="link">Train
+                    <br> Tickets</a>
+                    
+                </div>
+                <div class="div1">
+                    <a href="#" class="link">International
+                    <br>Flights</a>
+                </div>
+                <div class="div1">
+                    <a href="#" class="link">Buy
+                    <br>Insurance</a>
+                </div>
+                <div class="div1">
+                    <a href="#" class="link">Investin
+                    <br>Stock</a>
+                </div>
+            </div>
+                <div><p class="instructions">Finnancial Services on YouPay<p></p>
+                <img src="Screenshot 2024-11-11 005440.png" alt=""></div>
+                </div>
+</body>
+</html>
